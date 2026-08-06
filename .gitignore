@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Competition data and generated artefacts — never commit these
+data/
+train/
+test/
+*.csv
+*.npz
+*.parquet
+submission*.csv
